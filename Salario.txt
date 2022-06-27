@@ -1,0 +1,41 @@
+Nombre: Sami 
+Jornada: Vespertina
+Horas: 10
+Salario Bruto: $85
+Descuento: $8.075
+Salario Neto: $76.925
+
+Nombre: Fernando 
+Jornada: Nocturna
+Horas: 23
+Salario Bruto: $290.95
+Descuento: $27.6403
+Salario Neto: $263.31
+
+Nombre: Valeria
+Jornada: Matutina
+Horas: 12
+Salario Bruto: $61.8
+Descuento: $5.871
+Salario Neto: $55.929
+
+Nombre: Kevin
+Jornada: Nocturna
+Horas: 9
+Salario Bruto: $113.85
+Descuento: $10.8158
+Salario Neto: $103.034
+
+Nombre: Sarita 
+Jornada: Vespertina
+Horas: 30
+Salario Bruto: $255
+Descuento: $24.225
+Salario Neto: $230.775
+
+Nombre: Fabricio
+Jornada: Vespertina
+Horas: 18
+Salario Bruto: $153
+Descuento: $14.535
+Salario Neto: $138.465
