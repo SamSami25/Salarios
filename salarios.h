@@ -4,11 +4,15 @@
 #include <QMainWindow>
 #include <QDebug>
 #include <QMessageBox>
+#include <QFileDialog>
+#include <QTextStream>
+#include <QFile>
 
-#include "salarios.h"
-#include "ui_salarios.h"
 #include "obrero.h"
 #include "controlador.h"
+#include "acerca.h"
+
+#define VERSION "0.2"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Salarios; }
@@ -23,10 +27,20 @@ public:
     ~Salarios();
 
 private slots:
-    void on_BtnCalcular_clicked();
+
+    void on_btnCalcular_clicked();
+    void on_actionNuevo_triggered();
+    void on_actionCalcular_triggered();
+    void on_actionSalir_triggered();
+    void on_actionGuardar_triggered();
+    void on_actionAcerca_de_triggered();
+
+    void on_actionAbrir_triggered();
 
 private:
     Ui::Salarios *ui;
-    Controlador *m_controlador;
+    Controlador *m_contolador;
+    void limpiar();
+    void calcular();
 };
 #endif // SALARIOS_H
